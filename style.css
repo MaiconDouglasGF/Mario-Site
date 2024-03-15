@@ -32,6 +32,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 video {
     position: fixed;
     top: 0;
@@ -104,38 +105,42 @@ textarea {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
-@media screen and (max-width:900px){
-    body{
+@media screen and (max-width:900px) {
+    body {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         overflow: auto;
     }
 
-    .logo-mario{
-        height: 200px;
-    }
-
-    .imagem-mario-luigi{
-      display:flex;
-
-    }
-
-    .caixa-principal{
+    .caixa-principal {
         width: 80%;
         display: flex;
         flex-direction: column;
-       align-items: center;
+        align-items: center;
+        padding: 10px;
     }
 
-    p{
-         display: none;
-       
+    .logo-mario {
+        height: 200px;
     }
 
-    button{
+
+    p {
+        display: none;
+
+    }
+
+    button {
         margin-top: 30px;
     }
 
+    .imagem-mario-luigi {
+        display: grid;
+        width: 60%;
+        height: 50%;
+
+
+    }
 
 }
