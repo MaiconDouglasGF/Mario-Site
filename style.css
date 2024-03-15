@@ -113,13 +113,11 @@ textarea {
     }
 
     .logo-mario{
-        max-width: 300px;
-        position: static;
-        margin-bottom: 40px;
+        height: 200px;
     }
 
     .imagem-mario-luigi{
-      display: none;
+      display:flex;
 
     }
 
@@ -131,10 +129,8 @@ textarea {
     }
 
     p{
-         display: block;
-        margin: auto;
-        text-align: center;
-        font-size: 15px;
+         display: none;
+       
     }
 
     button{
